@@ -35,7 +35,7 @@ nav img{
 .nav-links{
     display: 1;
     text-align: left;
-    margin-left: 1%;
+    margin-left: 2%;
 }
 .nav-links ul li{
     list-style: none;
@@ -66,7 +66,7 @@ nav img{
 
 
 .text-box{
-    width: 90%;
+    width: 50%;
     color: black;
     position: absolute;
     top: 15%;
@@ -132,6 +132,13 @@ nav img{
     position: relative;
     cursor: pointer;
 }
+hr {
+    border: none;
+    height: 5px;
+    background-color: yellow;
+    margin-bottom: 10px;
+    
+}
 .search-bar{
     left: 800%;
     position: relative;
@@ -148,6 +155,11 @@ nav img{
     margin-left: 1%;
     display: flex;
     justify-content: space-between;
+}
+.text-new{
+    border: 2px solid rgb(244, 242, 242);
+    border-radius: 5px;
+    padding: 30px;
 }
 .text-new h2{
     font-size: 25px;
